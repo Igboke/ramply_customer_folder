@@ -38,11 +38,15 @@ This script is designed to help you download files in the Excel files easily. Fo
 
 ## Usage
 1. Place the Excel file you want to format in the `input` folder.
-2. Run the script:
+2. Run the script for downloading all files in folder:
     ```sh
-    python format_excel.py
+    python update.py
     ```
-3. The formatted Excel file will be saved in the `output` folder.
+3. The downlaoded files will be saved in the `output` folder.
+4. Run the script for downloading only the folders:
+    ```sh
+        python main.py
+    ```
 
 ## Configuration
 - You can modify the script to change the formatting rules as per your requirements. Open `format_excel.py` and edit the relevant sections.
